@@ -10,7 +10,7 @@ interface Props {
 const Description: React.FC<Props> = ({ }) => {
     return <Responsive>
         <div className="flex gap-16">
-            <div className="flex-1 flex flex-col gap-3">
+            <div className="flex-1 flex flex-col gap-3 pt-8">
                 <label>APA ITU JCC LAW ?</label>
                 <h3 className="mb-2">ATTORNEY & COUNSELORS AT LAW</h3>
                 <p>

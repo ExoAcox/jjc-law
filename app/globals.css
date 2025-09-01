@@ -2,21 +2,35 @@
 
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme {
   --font-sans: var(--font-inter);
+  --font-merriweather: var(--font-merriweather);
   --spacing-999: 1280px;
+
+  --color-base-black: #27272A;
+  --color-base-border: #DDDDE3;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  div {
+    border-color: var(--color-base-border);
   }
+
+  button {
+    border-color: var(--color-base-border);
+  }
+
+  tr {
+    border-color: var(--color-base-border);
+  }
+}
+
+body {
+  color: var(--color-base-black);
+}
+
+button {
+  cursor: pointer;
 }
 
 h5 {
