@@ -1,0 +1,24 @@
+{
+    "home": {
+        "hero": {
+            "title": "Mulut orang benar mengucapkan hikmat dan lidahnya menegakkan keadilan"
+        },
+        "motto": {
+            "title": "JJC & Associates Law Office menjadikan F-I-T (Focus, Integrity, Transparency) sebagai filosofi utama dalam memberikan layanan hukum terbaik bagi setiap klien.",
+            "contents": [
+                {
+                    "title": "Focus",
+                    "desc": "JJC & Associates Law Office memberikan perhatian penuh pada setiap kebutuhan klien kami. Kantor hukum ini berkomitmen mengerjakan setiap layanan hukum dengan seksama dan penuh kehati-hatian sehingga kantor hukum ini dapat memberikan layanan hukum yang maksimal dengan hasil optimal."
+                },
+                {
+                    "title": "Integrity",
+                    "desc": "Integritas/Kejujuran adalah hal yang utama bagi JJC & Associates Law Office. Kantor hukum ini berkomitmen untuk selalu menjunjung tinggi standar moral dan etika dalam setiap jasa hukum yang di berikan. Kantor hukum ini memastikan bahwa setiap tindakan yang diambil untuk kepentingan klien tetap berpegang teguh pada prinsip keadilan dan Ketuhanan Yang Maha Esa."
+                },
+                {
+                    "title": "Transparency",
+                    "desc": "JJC & Associates Law Office berkomitmen untuk selalu menjaga komunikasi yang jelas, terbuka dan terkini kepada setiap klien kami. Kantor hukum ini akan selalu memberikan informasi yang mudah dipahami terhadap setiap analisis kasus, risiko hukum, perkembangan kasus, maupun strategi hukum yang diambil untuk menciptakan rasa tenang dan nyaman pada setiap klien."
+                }
+            ]
+        }
+    }
+}
