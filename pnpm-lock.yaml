@@ -26,6 +26,9 @@ importers:
       react-fast-marquee:
         specifier: ^1.6.5
         version: 1.6.5(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      react-icons:
+        specifier: ^5.5.0
+        version: 5.5.0(react@19.1.0)
       react-if:
         specifier: ^4.1.6
         version: 4.1.6(react@19.1.0)
@@ -570,6 +573,11 @@ packages:
       react: '>= 16.8.0 || ^18.0.0'
       react-dom: '>= 16.8.0 || ^18.0.0'
 
+  react-icons@5.5.0:
+    resolution: {integrity: sha512-MEFcXdkP3dLo8uumGI5xN3lDFNsRtrjbOEKDLD7yv76v4wpnEq2Lt2qeHaQOr34I/wPN3s3+N08WkQ+CW37Xiw==}
+    peerDependencies:
+      react: '*'
+
   react-if@4.1.6:
     resolution: {integrity: sha512-vEwRUAiNVD+UWE5vRIU+wTPZOSlw81xpR8ffDRxkff+68y63I8Lbv9PIGdookNDAKbyCRqtKxccKoFtgIhEM/w==}
     engines: {node: '>=12'}
@@ -1052,6 +1060,10 @@ snapshots:
     dependencies:
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
+
+  react-icons@5.5.0(react@19.1.0):
+    dependencies:
+      react: 19.1.0
 
   react-if@4.1.6(react@19.1.0):
     dependencies:
