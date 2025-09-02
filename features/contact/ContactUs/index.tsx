@@ -1,6 +1,8 @@
 "use client";
 
 import Responsive from "@components/Responsive";
+import { tw } from "@functions/style";
+import useTheme from "@functions/theme";
 import Image from "next/image";
 import Link from "next/link";
 import { FormEventHandler, useState } from "react";
@@ -12,6 +14,8 @@ type FormState = {
 };
 
 const ContactUs = () => {
+  const { theme } = useTheme();
+
   const [formState, setFormState] = useState<FormState>({
     name: null,
     email: null,
@@ -43,12 +47,15 @@ const ContactUs = () => {
           className="w-full h-full object-cover absolute top-0 left-0"
         />
         <form
-          className="relative z-[3] flex flex-col w-full max-w-[578px] xl:max-w-[618px] xl:ms-auto px-20 py-8 bg-gradient-to-l from-white dark:from-black to-white/80 dark:to-black/80 gap-20"
+          className="flex flex-col w-full max-w-[578px] xl:max-w-[618px] xl:ms-auto z-10 px-20 py-8 bg-gradient-to-l from-white dark:from-black to-white/70 dark:to-black/70 backdrop-blur-lg gap-20"
           onSubmit={onFormSubmit}
         >
-          <div className="flex flex-col gap-7 mt-12">
-            <h2 className="font-light">Kontak Kami</h2>
-            <p className="text-sm md:text-base">
+          <div></div>
+          <div className="flex flex-col gap-7">
+            <h2 className={tw("font-light", theme === "dark" && "text-black")}>
+              Kontak Kami
+            </h2>
+            <p className="text-sm">
               Kami akan segera membalas keluhan Anda dengan melakukan pengecekan
               keseluruhan informasi yang Anda berikan.
             </p>
