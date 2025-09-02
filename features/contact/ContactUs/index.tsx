@@ -38,13 +38,13 @@ const ContactUs = () => {
   };
 
   return (
-    <Responsive>
+    <Responsive id="contact-us">
       <div className="flex rounded-lg drop-shadow-lg relative overflow-auto justify-end">
         <Image
           src="/images/contact/contact.webp"
           alt="contact us"
           fill
-          className="w-full h-full object-cover absolute top-0 left-0 z-0"
+          className="w-full h-full object-cover absolute top-0 left-0"
         />
         <form
           className="flex flex-col w-full max-w-[578px] xl:max-w-[618px] xl:ms-auto z-10 px-20 py-8 bg-gradient-to-l from-white dark:from-black to-white/85 dark:to-black/85 gap-20"
@@ -78,9 +78,8 @@ const ContactUs = () => {
               }
             />
             <textarea
-              placeholder="Pesan"
+              placeholder={`Halo, saya ingin berkonsultasi\nmengenai layanan hukum`}
               name="pesan"
-              // rows={5}
               className="border-b focus-visible:outline-0 font-medium resize-none py-2"
               required
               onChange={(e) =>

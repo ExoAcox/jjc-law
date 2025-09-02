@@ -17,7 +17,7 @@ const Hero: React.FC<Props> = ({ dict }) => {
     const { theme, toggleTheme } = useTheme();
 
     return (
-        <Responsive className="py-0">
+        <Responsive className="py-0 md:py-0">
             <div className="min-h-dvh flex items-center relative z-[2]">
                 <div className="flex flex-col gap-6">
                     <motion.h1

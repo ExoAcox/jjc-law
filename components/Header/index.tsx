@@ -27,7 +27,7 @@ const Header = () => {
   };
 
   return (
-    <Responsive className="py-2 flex justify-between items-center">
+    <Responsive parentClassName="fixed top-0 bg-white dark:bg-base-dark-background z-[99] border-b" className="py-2 md:py-2 flex justify-between items-center">
       {theme === "dark" ? (
         <Image
           src="/images/logo.png"
