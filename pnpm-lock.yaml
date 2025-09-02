@@ -51,6 +51,9 @@ importers:
       tailwindcss:
         specifier: ^4
         version: 4.1.12
+      tailwindcss-debug-screens:
+        specifier: ^3.0.1
+        version: 3.0.1(tailwindcss@4.1.12)
       typescript:
         specifier: ^5
         version: 5.9.2
@@ -622,6 +625,11 @@ packages:
   tailwind-merge@3.3.1:
     resolution: {integrity: sha512-gBXpgUm/3rp1lMZZrM/w7D8GKqshif0zAymAhbCyIt8KMe+0v9DQ7cdYLR4FHH/cKpdTXb+A/tKKU3eolfsI+g==}
 
+  tailwindcss-debug-screens@3.0.1:
+    resolution: {integrity: sha512-ibUaLQGk4AvxnKzGyoLlj1kzBRADcQV65ELENcWxkXJArUCnitR/GZxxDPL9XnW96mzUEuhJqgFI7C43hKm6Vw==}
+    peerDependencies:
+      tailwindcss: ^4.0
+
   tailwindcss@4.1.12:
     resolution: {integrity: sha512-DzFtxOi+7NsFf7DBtI3BJsynR+0Yp6etH+nRPTbpWnS2pZBaSksv/JGctNwSWzbFjp0vxSqknaUylseZqMDGrA==}
 
@@ -1112,6 +1120,10 @@ snapshots:
       react: 19.1.0
 
   tailwind-merge@3.3.1: {}
+
+  tailwindcss-debug-screens@3.0.1(tailwindcss@4.1.12):
+    dependencies:
+      tailwindcss: 4.1.12
 
   tailwindcss@4.1.12: {}
 

@@ -18,15 +18,15 @@ const Hero: React.FC<Props> = ({ dict }) => {
 
     return <Responsive className="py-0">
         <div className="min-h-dvh flex items-center relative z-[2]">
-            <div className="flex flex-col gap-6">
-                <motion.h1 {...fadeInLeft()} className="max-w-3xl uppercase font-merriweather !text-8xl">
+            <div className="flex flex-col gap-4 md:gap-6">
+                <motion.h1 {...fadeInLeft()} className="max-w-3xl uppercase font-merriweather text-6xl md:text-8xl">
                     {dict.home.hero.title}
                 </motion.h1>
-                <motion.div {...fadeInBottom()} className="max-w-xl bg-amber-100 dark:bg-amber-200 p-8 rounded-2xl shadow-xs">
+                <motion.div {...fadeInBottom()} className="max-w-md md:max-w-xl bg-amber-100 dark:bg-amber-200 p-5 md:p-8 rounded-2xl shadow-xs">
                     <h5 className="dark:text-base-black">
                         {dict.home.hero.desc}
                     </h5>
-                    <button className="bg-black font-semibold text-white  py-2 px-4 rounded-lg shadow mt-6 active:translate-y-1">Konsultasi Sekarang</button>
+                    <button className="bg-black font-semibold text-white  py-2 px-4 rounded-lg shadow mt-4 md:mt-6 active:translate-y-1">Konsultasi Sekarang</button>
                 </motion.div>
                 <motion.h3
                     {...fadeInRight({ delay: 0.5 })}
@@ -35,7 +35,7 @@ const Hero: React.FC<Props> = ({ dict }) => {
                 </motion.h3>
             </div>
         </div>
-        <div className="absolute top-0 right-0 w-[700px] h-full">
+        <div className="absolute top-0 right-0 w-[700px] h-full opacity-25 sm:opacity-50 md:opacity-100">
             <Image src={HomeImage} alt="" fill className="object-cover" />
         </div>
         <div className="absolute top-0 right-0 w-[700px] h-full bg-linear-to-r from-white to-white/25 dark:from-base-dark-background dark:to-base-dark-background/25" />

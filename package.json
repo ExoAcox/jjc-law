@@ -24,6 +24,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "tailwindcss": "^4",
+    "tailwindcss-debug-screens": "^3.0.1",
     "typescript": "^5"
   }
 }
