@@ -16,6 +16,11 @@ interface Props {
 const Hero: React.FC<Props> = ({ dict }) => {
     const { theme, toggleTheme } = useTheme()
 
+    const handleClick = () => {
+        const element = document.getElementById("contact-us");
+        if (element) element.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+
     return <Responsive className="py-0 md:py-0">
         <div className="min-h-dvh flex items-center relative z-[2]">
             <div className="flex flex-col gap-4 md:gap-6">
@@ -26,7 +31,8 @@ const Hero: React.FC<Props> = ({ dict }) => {
                     <h5 className="dark:text-base-black">
                         {dict.home.hero.desc}
                     </h5>
-                    <button className="bg-black font-semibold text-white  py-2 px-4 rounded-lg shadow mt-4 md:mt-6 active:translate-y-1">Konsultasi Sekarang</button>
+                    <button onClick={handleClick} className="bg-black font-semibold text-white  py-2 px-4 rounded-lg shadow mt-4 md:mt-6 active:translate-y-1">Konsultasi Sekarang</button>
+                    {/* <button className="border-2 border-black font-semibold   py-2 px-4 mt-4 md:mt-6 active:translate-y-1 dark:text-base-black">Konsultasi Sekarang</button> */}
                 </motion.div>
                 <motion.h3
                     {...fadeInRight({ delay: 0.5 })}
