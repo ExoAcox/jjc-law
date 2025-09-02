@@ -17,8 +17,8 @@ const merriweather = Merriweather_Sans({
 
 
 export const metadata: Metadata = {
-  title: "JCC LAW",
-  description: "JCC LAW",
+  title: "JJC Law Office",
+  description: "JJC Law Office",
 };
 
 export default function RootLayout({
@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en" data-theme="light">
       <body
-        className={tw(process.env.NODE_ENV === "development" && "debug-screens", "antialiased", inter.className, merriweather.className)}
+        className={tw(process.env.NODE_ENV === "development" && "debug-screens", inter.variable, merriweather.variable)}
       >
         {children}
       </body>

@@ -16,8 +16,8 @@ export const fadeVariants = (options?: MotionOptions): Variants => {
     return {
         normal: {
             opacity: 1,
-            translateX: 0,
-            translateY: 0,
+            x: 0,
+            y: 0,
             transition: {
                 ...transition,
                 ease: [0.43, 0.13, 0.23, 0.96], // Easing array representing "easeInOut"
@@ -25,17 +25,29 @@ export const fadeVariants = (options?: MotionOptions): Variants => {
         },
         right: {
             opacity: 0,
-            translateX: 150,
+            x: 150,
         },
         bottom: {
             opacity: 0,
-            translateY: 150,
+            y: 150,
         },
         left: {
             opacity: 0,
-            translateX: -150,
+            x: -150,
         },
     };
+};
+
+const parentVariants = {
+    hidden: { opacity: 0 },
+    visible: { opacity: 1, transition: { staggerChildren: 0.2 } },
+};
+
+export const parentAnimate = {
+    variants: parentVariants,
+    initial: "hidden",
+    whileInView: "visible",
+    viewport: { once: true },
 };
 
 export const fadeInRight = (options?: MotionOptions) => {

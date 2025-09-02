@@ -9,6 +9,7 @@
 
   --color-base-black: #27272A;
   --color-base-border: #DDDDE3;
+  --color-base-dark-background: #212121;
 }
 
 @layer base {
@@ -17,47 +18,35 @@
   }
 
   button {
+    cursor: pointer;
     border-color: var(--color-base-border);
   }
 
   tr {
     border-color: var(--color-base-border);
   }
-}
 
-body {
-  color: var(--color-base-black);
-}
+  body {
+    @apply text-base-black antialiased dark:bg-base-dark-background dark:text-white;
+  }
 
-button {
-  cursor: pointer;
-}
+  h5 {
+    @apply text-[1.5rem] font-bold;
+  }
 
-h5 {
-  font-size: 1.5rem;
-  line-height: 1.75rem;
-  font-weight: bold;
-}
+  h4 {
+    @apply text-[1.75rem] font-bold;
+  }
 
-h4 {
-  font-size: 1.75rem;
-  line-height: 2rem;
-  font-weight: bold;
-}
+  h3 {
+    @apply text-[2rem] font-bold;
+  }
 
-h3 {
-  font-size: 2rem;
-  line-height: 2.25rem;
-  font-weight: bold;
-}
+  h2 {
+    @apply text-[2.25rem] font-bold;
+  }
 
-h2 {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-  font-weight: bold;
-}
-
-h1 {
-  font-size: 2.5rem;
-  font-weight: bold;
+  h1 {
+    @apply text-[2.5rem] font-bold;
+  }
 }

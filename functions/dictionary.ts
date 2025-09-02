@@ -8,5 +8,7 @@ const dictionaries = {
     id: () => import('../dictionaries/id.json').then((module) => module.default),
 }
 
-export const getDictionary = async (locale: 'en' | 'id') =>
+const useDictionary = async (locale: 'en' | 'id') =>
     dictionaries[locale ?? "id"]()
+
+export default useDictionary
