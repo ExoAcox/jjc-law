@@ -11,7 +11,7 @@ const Header = () => {
   const [lang, setLang] = useState("id");
 
   return (
-    <Responsive className="py-2 flex justify-between items-center">
+    <Responsive parentClassName="fixed top-0 z-[5] bg-white border-b" className="py-2 md:py-2 flex justify-between items-center">
       <div className="bg-black">
         <Image
           src="/images/logo.png"

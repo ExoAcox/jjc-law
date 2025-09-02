@@ -16,7 +16,7 @@ interface Props {
 const Hero: React.FC<Props> = ({ dict }) => {
     const { theme, toggleTheme } = useTheme()
 
-    return <Responsive className="py-0">
+    return <Responsive className="py-0 md:py-0">
         <div className="min-h-dvh flex items-center relative z-[2]">
             <div className="flex flex-col gap-4 md:gap-6">
                 <motion.h1 {...fadeInLeft()} className="max-w-3xl uppercase font-merriweather text-6xl md:text-8xl">
