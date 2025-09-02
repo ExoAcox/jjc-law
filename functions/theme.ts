@@ -1,10 +1,17 @@
+"use client"
+
+import { useState } from "react";
 
 
 const useTheme = () => {
-    const theme = document.documentElement.getAttribute("data-theme");
-    const toggle = document.documentElement.setAttribute("data-theme", theme === "dark" ? "light" : "dark");
+    const [theme, setTheme] = useState("light")
 
-    return { theme, toggle }
+    const toggleTheme = () => {
+        setTheme(theme === "dark" ? "light" : "dark")
+        document?.documentElement.setAttribute("data-theme", theme === "dark" ? "light" : "dark");
+    }
+
+    return { theme, toggleTheme }
 }
 
 export default useTheme

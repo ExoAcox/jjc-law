@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import { headerMenu } from "@functions/headerMenu";
 import Link from "next/link";

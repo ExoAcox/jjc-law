@@ -1,3 +1,5 @@
+"use client";
+
 import Responsive from "@components/Responsive";
 import Image from "next/image";
 import Link from "next/link";
