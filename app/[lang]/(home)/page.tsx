@@ -12,7 +12,7 @@ const Home: React.FC<Page> = async ({ params }) => {
   const dict = await useDictionary(lang);
 
   return (
-    <Wrapper>
+    <Wrapper lang={lang}>
       <Hero dict={dict} />
       <Motto dict={dict} />
       <Description />

@@ -10,12 +10,15 @@ import useTheme from "@functions/theme";
 import { MdDarkMode, MdLightMode } from "react-icons/md";
 import { usePathname } from "next/navigation";
 
-const Header = () => {
+interface Props {
+  lang: string;
+}
+
+const Header: React.FC<Props> = ({ lang }) => {
   const pathName = usePathname();
   const locale = pathName?.split("/")[1];
 
   const { theme, toggleTheme } = useTheme();
-  const [lang, setLang] = useState("id");
 
   const switchLanguage = () => {
     const newLocale = locale === "en" ? "id" : "en";
@@ -27,7 +30,10 @@ const Header = () => {
   };
 
   return (
-    <Responsive parentClassName="fixed top-0 bg-white dark:bg-base-dark-background z-[99] border-b" className="py-2 md:py-2 flex justify-between items-center">
+    <Responsive
+      parentClassName="fixed top-0 bg-white dark:bg-base-dark-background z-[99] border-b"
+      className="py-2 md:py-2 flex justify-between items-center"
+    >
       {theme === "dark" ? (
         <Image
           src="/images/logo.png"
@@ -58,33 +64,23 @@ const Header = () => {
 
       <div className="flex gap-3 items-center">
         <Link href={switchLanguage()} className="cursor-pointer">
-          <button
-            onClick={() => (lang === "en" ? setLang("id") : setLang("en"))}
-          >
-            {lang === "en" ? (
-              <Image
-                src="/images/en.webp"
-                alt="english"
-                width={20}
-                height={10}
-                className={tw(
-                  "object-contain cursor-pointer opacity-35",
-                  lang === "en" && "opacity-100"
-                )}
-              />
-            ) : (
-              <Image
-                src="/images/id.png"
-                alt="indonesia"
-                width={20}
-                height={10}
-                className={tw(
-                  "object-contain cursor-pointer opacity-35",
-                  lang === "id" && "opacity-100"
-                )}
-              />
-            )}
-          </button>
+          {lang === "en" ? (
+            <Image
+              src="/images/en.webp"
+              alt="english"
+              width={20}
+              height={10}
+              className="object-contain cursor-pointer"
+            />
+          ) : (
+            <Image
+              src="/images/id.png"
+              alt="indonesia"
+              width={20}
+              height={10}
+              className="object-contain cursor-pointer"
+            />
+          )}
         </Link>
         <button
           className="flex items-center text-[20px] cursor-pointer"
