@@ -17,12 +17,12 @@ const Hero: React.FC<Props> = ({ dict }) => {
 
 
     return (
-        <Responsive className="">
+        <Responsive>
             <div className="min-h-[calc(100dvh-5rem-12rem)] w-full flex items-center relative z-[2]">
                 <div className="flex flex-col gap-6">
                     <motion.h1
                         {...fadeInLeft()}
-                        className="max-w-3xl uppercase font-merriweather !text-8xl"
+                        className="max-w-3xl uppercase font-merriweather text-6xl md:text-8xl"
                     >
                         {dict.home.hero.title}
                     </motion.h1>

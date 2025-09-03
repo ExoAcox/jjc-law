@@ -6,6 +6,7 @@ import Motto from "@features/home/Motto";
 import ClientCarousel from "@features/client/ClientCarousel";
 import ContactUs from "@features/contact/ContactUs";
 import Wrapper from "@components/Wrapper";
+import TeamList from "@features/about/TeamList";
 
 const Home: React.FC<Page> = async ({ params }) => {
   const { lang } = await params;
@@ -17,6 +18,7 @@ const Home: React.FC<Page> = async ({ params }) => {
       <Motto dict={dict} />
       <Description />
       <ClientCarousel />
+      <TeamList />
       {/* <ClientList /> */}
       <ContactUs />
     </Wrapper>
