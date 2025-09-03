@@ -47,13 +47,12 @@ const ContactUs = () => {
           className="w-full h-full object-cover absolute top-0 left-0"
         />
         <form
-          className="flex flex-col w-full max-w-[578px] xl:max-w-[618px] xl:ms-auto z-10 px-20 py-8 bg-gradient-to-l from-white dark:from-black to-white/85 dark:to-black/85 gap-20"
+          className="flex flex-col w-full max-w-[578px] xl:max-w-[618px] xl:ms-auto z-10 px-20 py-8 bg-gradient-to-l from-white dark:from-black to-white/85 dark:to-black/85"
           onSubmit={onFormSubmit}
         >
-          <div></div>
-          <div className="flex flex-col gap-7">
-            <h2 className="font-light  dark:text-white">Kontak Kami</h2>
-            <p className="text-sm">
+          <div className="flex flex-col gap-7 mt-8 mb-20">
+            <h2 className="font-light dark:text-white">Kontak Kami</h2>
+            <p className="">
               Kami akan segera membalas keluhan Anda dengan melakukan pengecekan
               keseluruhan informasi yang Anda berikan.
             </p>
