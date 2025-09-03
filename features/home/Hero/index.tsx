@@ -7,18 +7,18 @@ import Image from "next/image";
 import { fadeInBottom, fadeInLeft, fadeInRight } from "@functions/motion";
 
 import HomeImage from "@images/bitmap/home-hero-image.jpg";
-import useTheme from "@functions/theme";
+import { scrollToContact } from "@functions/contactUs";
 
 interface Props {
     dict: Dictionary;
 }
 
 const Hero: React.FC<Props> = ({ dict }) => {
-    const { theme, toggleTheme } = useTheme();
+
 
     return (
-        <Responsive className="py-0 md:py-0">
-            <div className="min-h-dvh flex items-center relative z-[2]">
+        <Responsive className="">
+            <div className="min-h-[calc(100dvh-5rem-12rem)] w-full flex items-center relative z-[2]">
                 <div className="flex flex-col gap-6">
                     <motion.h1
                         {...fadeInLeft()}
@@ -31,7 +31,7 @@ const Hero: React.FC<Props> = ({ dict }) => {
                         className="max-w-xl bg-amber-100 dark:bg-amber-200 p-8 rounded-2xl shadow-xs"
                     >
                         <h5 className="dark:text-base-black">{dict.home.hero.desc}</h5>
-                        <button className="bg-black font-semibold text-white  py-2 px-4 rounded-lg shadow mt-6 active:translate-y-1">
+                        <button onClick={scrollToContact} className="bg-black font-semibold text-white  py-2 px-4 rounded-lg shadow mt-6 active:translate-y-1">
                             Konsultasi Sekarang
                         </button>
                     </motion.div>

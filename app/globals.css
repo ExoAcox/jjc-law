@@ -15,16 +15,11 @@
 
 @layer base {
   div {
-    border-color: var(--color-base-border);
+    @apply border-base-border dark:border-gray-500
   }
 
   button {
-    cursor: pointer;
-    border-color: var(--color-base-border);
-  }
-
-  tr {
-    border-color: var(--color-base-border);
+    @apply cursor-pointer border-base-border dark:border-gray-500
   }
 
   body {
