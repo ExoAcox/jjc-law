@@ -4,8 +4,6 @@ import Image from "next/image";
 import { headerMenu } from "@functions/headerMenu";
 import Link from "next/link";
 import Responsive from "@components/Responsive";
-import { useState, useEffect } from "react";
-import { tw } from "@functions/style";
 import useTheme from "@functions/theme";
 import { MdDarkMode, MdLightMode } from "react-icons/md";
 import { usePathname } from "next/navigation";
@@ -32,7 +30,7 @@ const Header: React.FC<Props> = ({ lang }) => {
   return (
     <Responsive
       parentClassName="fixed top-0 bg-white dark:bg-base-dark-background z-[99] border-b"
-      className="py-2 md:py-2 flex justify-between items-center"
+      className="py-0 md:py-0 h-20 flex justify-between items-center"
     >
       <Link href="/">
         {theme === "dark" ? (

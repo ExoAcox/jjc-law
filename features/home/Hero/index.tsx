@@ -18,7 +18,7 @@ const Hero: React.FC<Props> = ({ dict }) => {
 
     return (
         <Responsive>
-            <div className="min-h-[calc(100dvh-5rem-12rem)] w-full flex items-center relative z-[2]">
+            <div className="min-h-[calc(100dvh-5rem-6rem)] md:min-h-[calc(100dvh-5rem-12rem)] w-full flex items-center relative z-[2]">
                 <div className="flex flex-col gap-6">
                     <div className="flex flex-col gap-4 md:gap-6">
                         <motion.h1 {...fadeInLeft()} className="max-w-3xl uppercase font-merriweather text-6xl md:text-8xl">
@@ -26,7 +26,7 @@ const Hero: React.FC<Props> = ({ dict }) => {
                         </motion.h1>
                         <motion.div {...fadeInBottom()} className="max-w-md md:max-w-xl bg-amber-100 dark:bg-amber-200 p-5 md:p-8 rounded-2xl shadow-xs">
                             <h5 className="dark:text-base-black font-normal italic">
-                                {dict.home.hero.desc}
+                                {dict.home.hero.desc}.
                             </h5>
                             <button className="bg-black font-semibold text-white  py-2 px-4 rounded-lg shadow mt-4 md:mt-6 active:translate-y-1">Konsultasi Sekarang</button>
                         </motion.div>
