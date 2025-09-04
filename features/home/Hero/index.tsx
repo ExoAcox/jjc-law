@@ -25,14 +25,14 @@ const Hero: React.FC<Props> = ({ dict }) => {
                             {dict.home.hero.title}
                         </motion.h1>
                         <motion.div {...fadeInBottom()} className="max-w-md md:max-w-xl bg-amber-100 dark:bg-amber-200 p-5 md:p-8 rounded-2xl shadow-xs">
-                            <h5 className="dark:text-base-black">
+                            <h5 className="dark:text-base-black font-normal italic">
                                 {dict.home.hero.desc}
                             </h5>
                             <button className="bg-black font-semibold text-white  py-2 px-4 rounded-lg shadow mt-4 md:mt-6 active:translate-y-1">Konsultasi Sekarang</button>
                         </motion.div>
                         <motion.h3
                             {...fadeInRight({ delay: 0.5 })}
-                            className="italic text-gray-600 dark:text-gray-100">
+                            className="text-gray-600 dark:text-gray-100">
                             义人口出智慧 诉说正义
                         </motion.h3>
                     </div>
