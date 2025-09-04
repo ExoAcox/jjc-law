@@ -34,23 +34,25 @@ const Header: React.FC<Props> = ({ lang }) => {
       parentClassName="fixed top-0 bg-white dark:bg-base-dark-background z-[99] border-b"
       className="py-2 md:py-2 flex justify-between items-center"
     >
-      {theme === "dark" ? (
-        <Image
-          src="/images/logo.png"
-          alt="header"
-          width={100}
-          height={20}
-          className="object-contain"
-        />
-      ) : (
-        <Image
-          src="/images/logo_black.png"
-          alt="header"
-          width={100}
-          height={20}
-          className="object-contain"
-        />
-      )}
+      <Link href="/">
+        {theme === "dark" ? (
+          <Image
+            src="/images/logo.png"
+            alt="header"
+            width={100}
+            height={20}
+            className="object-contain"
+          />
+        ) : (
+          <Image
+            src="/images/logo_black.png"
+            alt="header"
+            width={100}
+            height={20}
+            className="object-contain"
+          />
+        )}
+      </Link>
 
       <div className="flex gap-20">
         {headerMenu.map((menu) => {

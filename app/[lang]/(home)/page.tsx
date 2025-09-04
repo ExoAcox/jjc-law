@@ -1,6 +1,6 @@
 import useDictionary from "@functions/dictionary";
 
-import Description from "@features/about/Description";
+import Description from "@features/home/Description";
 import Hero from "@features/home/Hero";
 import Motto from "@features/home/Motto";
 import ClientCarousel from "@features/client/ClientCarousel";

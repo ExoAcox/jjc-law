@@ -1,7 +1,7 @@
 export const headerMenu = [
   {
     name: "About Us",
-    link: "#",
+    link: "/about",
   },
   {
     name: "Keahlian/Layanan",
@@ -9,6 +9,6 @@ export const headerMenu = [
   },
   {
     name: "Clients",
-    link: "#",
+    link: "/client",
   },
 ];

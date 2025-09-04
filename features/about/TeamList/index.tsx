@@ -6,11 +6,12 @@ import { teams } from "@functions/teamList"
 import Image from "next/image"
 
 interface Props {
-
+    className?: string
 }
 
-const TeamList: React.FC<Props> = ({ }) => {
-    return <Responsive>
+const TeamList: React.FC<Props> = ({ className }) => {
+
+    return <Responsive className={className}>
         <div className="flex flex-col">
             <h1 className="text-amber-500 font-merriweather text-3xl text-center md:text-left md:text-5xl font-light">MEET OUR TEAM</h1>
             <p className="max-w-[800px] text-base md:text-lg mb-12 mt-3 text-center md:text-left md:mt-4">
