@@ -21,5 +21,83 @@
         }
       ]
     }
+  },
+  "service": {
+    "company_skill": {
+      "title": "RUANG LINGKUP KEAHLIAN - PERUSAHAAN",
+      "desc": "JJC & Associates Law Office dengan kekhususan utama dalam bidang bisnis berupaya meningkatkan nilai perusahaan Anda dengan memberikan 3P (Pengetahuan, Pendampingan dan Pengamanan) dalam setiap legal action yang dilakukan oleh perusahaan agar dapat bersaing dengan perusahaan-perusahaan lain, baik dalam skala nasional maupun internasional. Kantor hukum ini memiliki keahlian yang dibutuhkan perusahaan dalam bidang :",
+      "contents": [
+        "Hukum Perusahaan",
+        "Hukum Perdata dan Pidana Perusahaan",
+        "Hukum Kontrak",
+        "Hukum Bisnis dan Investasi",
+        "Hukum Penanaman Modal Asing",
+        "Hukum Perbankan dan Keuangan",
+        "Restrukturisasi Hutang dan Perusahaan",
+        "Hukum Hak Kekayaan Intelektual",
+        "Hukum Ketenagakerjaan",
+        "Hukum Persaingan Usaha",
+        "Kepailitan dan Penundaan Kewajiban Pembayaran Utang"
+      ]
+    },
+    "non_company_skill": {
+      "title": "RUANG LINGKUP KEAHLIAN - NON PERUSAHAAN",
+      "desc": "JJC & Associates Law Office memiliki keahlian pada bidang hukum yang dibutuhkan oleh orang perorangan berupa :",
+      "contents": [
+        {
+          "title": "Hukum Orang dan Keluarga",
+          "desc": "Kantor hukum ini mampu memberikan pendapat hukum terkait dengan hukum perkawinan, sengketa waris, permohonan perwalian anak di bawah umur, permohonan pengampuan, permohonan kuasa menjual, permohonan ganti atau perbaikan nama, penetapan ahli waris adopsi anak, penolakan harta waris dan lain sebagainya."
+        },
+        {
+          "title": "Hukum Benda",
+          "desc": "Kantor hukum ini memiliki keahlian dan kreativitas dalam melakukan pengamanan yang sah secara hukum terhadap setiap aset dan harta benda yang dimiliki."
+        },
+        {
+          "title": "Hukum Agraria/Pertanahan",
+          "desc": "Kantor hukum ini mampu memberikan layanan hukum berupa perlindungan tanah sesuai hukum yang berlaku dan memiliki kerja sama dengan berbagai notaris dan/atau PPAT diseluruh Indonesia untuk kemudahan peralihan atau beralihnya hak atas tanah."
+        },
+        {
+          "title": "Hukum Ketenagakerjaan",
+          "desc": "Sengketa pada Pengadilan Hubungan Industrial (PHI) tidak hanya melibatkan perusahaan saja, namun dapat berpotensi melibatkan orang pribadi selaku penerima kerja. Jaminan pemenuhan hak bagi penerima kerja dapat diupayakan dengan mempercayakan kepada kantor hukum ini, yang memiliki pengalaman dalam forum bipartit, tripatrit maupun PHI."
+        }
+      ]
+    },
+    "service": {
+      "title": "Ruang Lingkup Layanan Kami",
+      "contents": [
+        {
+          "title": "Layanan Hukum Tanpa Batas",
+          "desc": "JJC & Associates Law Office mampu memberikan solusi atas kebutuhan hukum bagi perusahaan maupun orang pribadi secara prioritas dengan nama layanan “UNLIMITED SERVICES”. Layanan ini memberikan pengalaman memiliki advokat dan/atau konsultan hukum secara pribadi.  Jenis layanan ini memberikan kemudahan bagi Anda untuk mengakses seluruh layanan dari kantor hukum ini dan CV JJC LAW INDONESIA dengan fleksibilitas waktu pelayanan, harga khusus dan kunjungan secara rutin (apabila dibutuhkan)."
+        },
+        {
+          "title": "Konsultasi dan Pendapat Hukum",
+          "desc": "JJC & Associates Law Office memberikan layanan konsultasi terkait dengan permasalahan hukum yang ada serta memberikan pendapat hukum secara lisan maupun tertulis baik kepada perusahaan maupun orang perorangan untuk memberikan solusi dan jalan keluar yang terbaik."
+        },
+        {
+          "title": "Penyelesaian Sengketa",
+          "desc": "JJC & Associates Law Office berpengalaman menangani berbagai macam perkara hukum. Kantor hukum ini menyediakan berbagai layanan hukum penyelesaian sengketa baik secara litigasi (di dalam pengadilan) maupun non litigasi (diluar pengadilan) seperti pendampingan mediasi, negosiasi, konsolidasi, arbitrase, dan sebagainya."
+        },
+        {
+          "title": "Audit Hukum",
+          "desc": "Suatu fondasi bisnis perusahaan yang kokoh memerlukan pengecekan secara berkala dalam bidang hukum. Pengecekan tersebut bertujuan mengetahui permasalahan hukum yang mungkin tidak disadari oleh perusahaan. Audit hukum perusahaan dilakukan pada berbagai aspek seperti aspek pendirian, perizinan, hak kekayaan intelektual, kontrak/perjanjian, ketenagakerjaan, aset perusahaan, transaksi perusahaan, dan sebagainya yang dapat digunakan sebagai pedoman dalam melakukan perbaikan aspek hukum perusahaan. Hal ini akan mengamankan perusahaan ketika ingin berekspansi (memperbesar bisnis), melakukan berbagai tindakan hukum seperti merger atau akuisisi, pemenuhan perizinan tertentu dan sebagainya."
+        },
+        {
+          "title": "Pendirian Perusahaan",
+          "desc": "Legalitas dan kepatuhan hukum oleh perusahaan merupakan hal yang sangat penting bagi keberlangsungan suatu bisnis dalam jangka panjang. JJC & Associates Law Office memberikan layanan berupa pendampingan dalam perencanaan pendirian perusahaan (pra pendirian) hingga  perusahaan telah terbentuk. Kantor hukum ini memberikan pengetahuan, pengamanan, arahan dan saran yang sesuai dengan regulasi, penentuan perizinan, permodalan, bentuk kerja sama dengan para rekan kerja/investor, struktur perusahaan dan lain sebagainya."
+        },
+        {
+          "title": "Merger, Akuisisi, Konsolidasi dan Spin Off",
+          "desc": "JJC & Associates Law Office memberikan layanan kepada perusahaan berupa pendampingan dan pengamanan dalam proses pengurusan legalitas, termasuk memastikan keamanan dokumen hukum dan pengambilan langkah hukum terbaik dalam proses penggabungan (merger), pengambilalihan (akuisisi), peleburan (konsolidasi) dan pemisahan (spin off) perusahaan."
+        },
+        {
+          "title": "Likuidasi / Pembubaran Perusahaan",
+          "desc": "JJC & Associates Law Office memberikan layanan hukum komprehensif untuk membantu perusahaan dalam proses likuidasi. Kami mengurus seluruh aspek hukum yang terkait dengan pembubaran perusahaan, mulai dari pengurusan dokumen hingga penyelesaian kewajiban dengan meminimalkan berbagai risiko hukum yang ada serta memastikan hak-hak seluruh pihak terlindungi."
+        },
+        {
+          "title": "Perancangan Kontrak Bisnis dan Pengkajian Dokumen Yuridis",
+          "desc": "JJC & Associates Law Office memiliki tim yang bergelar Perancang Kontrak Tersertifikasi (Certified Contract Drafter) yang telah diuji oleh negara (Badan Sertifikasi Nasional Profesi) sehingga kompeten dalam melakukan perancangan kontrak (contract drafting), mengkaji potensi risiko pada dokumen yuridis dan menghindari kelemahan suatu kontrak (contract review), serta mampu mendampingi dalam bernegosiasi terkait klausul pada perjanjian/kontrak bisnis pada perusahaan."
+        }
+      ]
+    }
   }
 }

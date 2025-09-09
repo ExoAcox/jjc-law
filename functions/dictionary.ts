@@ -1,7 +1,7 @@
 import 'server-only'
 
-import en from '../dictionaries/en.json'
-export type Dictionary = typeof en;
+import id from '../dictionaries/id.json'
+export type Dictionary = typeof id;
 
 const dictionaries = {
     en: () => import('../dictionaries/en.json').then((module) => module.default),

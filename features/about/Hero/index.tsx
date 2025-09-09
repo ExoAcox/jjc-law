@@ -12,8 +12,8 @@ interface Props {
 const Hero: React.FC<Props> = ({ }) => {
     return <Responsive>
         <div className="flex gap-8 sm:gap-12 md:gap-24 justify-between flex-col md:flex-row">
-            <h1 className="text-5xl sm:text-7xl lg:text-8xl font-[300] max-w-[600px]">
-                <span className="text-amber-500 font-[400]">JJC LAW OFFICE</span><br />
+            <h1 className="text-5xl sm:text-7xl lg:text-8xl font-light max-w-[600px]">
+                <span className="text-amber-500 font-normal">JJC LAW OFFICE</span><br />
                 YOUR ONE STOP LEGAL PLATFORM
             </h1>
             <p className="md:max-w-[500px] leading-7.5">
