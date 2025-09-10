@@ -30,7 +30,7 @@ const SkillList: React.FC<Props> = ({ dict }) => {
             <h1 className="font-normal mb-12 uppercase max-w-[500px] text-8xl text-amber-500">{dict.service.service.title}</h1>
             <div className="flex flex-col flex-1 c">
                 {dict.service.service.contents.map((content, index) => {
-                    return <div className="p-4 pb-0 border-b">
+                    return <div className="p-4 pb-0 border-b" key={index}>
                         <button className="flex w-full justify-between mt-1 mb-4 gap-4" onClick={() => handleClick(index)}>
                             <span className="bs font-semibold text-left">{content.title}</span>
                             {activeIndex !== index ? <IoIosArrowDown className="shrink-0 mt-1" /> : <IoIosArrowUp className="shrink-0 mt-1" />}

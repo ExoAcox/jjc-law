@@ -5,7 +5,7 @@ export const headerMenu = [
   },
   {
     name: "Keahlian/Layanan",
-    link: "#",
+    link: "/service",
   },
   {
     name: "Clients",
