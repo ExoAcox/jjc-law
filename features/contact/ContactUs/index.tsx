@@ -51,7 +51,7 @@ const ContactUs: React.FC<Props> = ({ dict }) => {
           className="w-full h-full object-cover absolute top-0 left-0"
         />
         <form
-          className="flex flex-col w-full max-w-[578px] xl:max-w-[618px] xl:ms-auto z-10 px-20 py-8 bg-gradient-to-l from-white dark:from-black to-white/85 dark:to-black/85"
+          className="flex flex-col w-full md:max-w-[578px] xl:max-w-[618px] xl:ms-auto z-10 px-10 sm:px-20 py-8 bg-gradient-to-l from-white dark:from-black to-white/85 dark:to-black/85"
           onSubmit={onFormSubmit}
         >
           <div className="flex flex-col gap-7 mt-8 mb-20">
