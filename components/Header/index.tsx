@@ -99,7 +99,10 @@ const Header: React.FC<Props> = ({ lang, dict }) => {
               {menu.name}
             </Link>
           ))}
-          <button onClick={scrollToContact} className="uppercase border border-black px-5 py-2 dark:border-white w-fit">
+          <button onClick={() => {
+            scrollToContact()
+            setIsOpen(false)
+          }} className="uppercase border border-black px-5 py-2 dark:border-white w-fit active:translate-y-1">
             {dict.navbar.contact}
           </button>
         </div>
