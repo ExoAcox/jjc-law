@@ -1,21 +1,23 @@
 "use client"
 
 import Responsive from "@components/Responsive"
+import { Dictionary } from "@functions/dictionary"
 
 import { teams } from "@functions/teamList"
 import Image from "next/image"
 
 interface Props {
     className?: string
+    dict: Dictionary
 }
 
-const TeamList: React.FC<Props> = ({ className }) => {
+const TeamList: React.FC<Props> = ({ className, dict }) => {
 
     return <Responsive className={className}>
         <div className="flex flex-col">
-            <h1 className="text-amber-500 font-merriweather text-3xl text-center md:text-left md:text-5xl font-light">MEET OUR TEAM</h1>
+            <h1 className="text-amber-500 font-merriweather text-3xl text-center md:text-left md:text-5xl font-light uppercase">{dict.home.team.title}</h1>
             <p className="max-w-[800px] text-base md:text-lg mb-12 mt-3 text-center md:text-left md:mt-4">
-                Di balik setiap kasus, ada tim pengacara yang bekerja sepenuh hati. Kami percaya bahwa setiap klien berhak mendapatkan pendampingan hukum yang adil, jelas, dan terpercaya.
+                {dict.home.team.desc}
             </p>
             <div className="flex flex-wrap gap-8 md:gap-12 justify-center">
                 {teams.map(team => {

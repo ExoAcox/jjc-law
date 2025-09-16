@@ -9,9 +9,9 @@ const Home: React.FC<Page> = async ({ params }) => {
     const dict = await useDictionary(lang);
 
     return (
-        <Wrapper lang={lang}>
-            <ClientList />
-            <ContactUs />
+        <Wrapper lang={lang} dict={dict}>
+            <ClientList dict={dict} />
+            <ContactUs dict={dict} />
         </Wrapper>
     );
 };

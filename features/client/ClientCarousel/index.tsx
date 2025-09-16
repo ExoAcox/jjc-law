@@ -5,16 +5,17 @@ import Marquee from "react-fast-marquee";
 
 import Image from "next/image"
 import Responsive from "@components/Responsive";
+import { Dictionary } from "@functions/dictionary";
 
 
 interface Props {
-
+    dict: Dictionary
 }
 
-const ClientCarousel: React.FC<Props> = ({ }) => {
+const ClientCarousel: React.FC<Props> = ({ dict }) => {
     return <Responsive parentClassName="border-y dark:border-gray-500">
         <div className="mb-10 md:mb-12 w-fit mx-auto">
-            <h4 className="text-center font-bold">OUR AWESOME CLIENTS</h4>
+            <h4 className="text-center font-bold uppercase">{dict.home.client.title}</h4>
             <div className="w-full h-0.5 bg-base-black mt-0.5 dark:bg-white" />
         </div>
         <div className="flex flex-col gap-8">

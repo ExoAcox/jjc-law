@@ -2,7 +2,8 @@
     "home": {
         "hero": {
             "title": "Platform Hukum untuk Anda",
-            "desc": "Mulut orang benar mengucapkan hikmat dan lidahnya menegakkan keadilan"
+            "desc": "Mulut orang benar mengucapkan hikmat dan lidahnya menegakkan keadilan",
+            "button": "Konsultasi Sekarang"
         },
         "motto": {
             "title": "JJC & Associates Law Office menjadikan F-I-T (Focus, Integrity, Transparency) sebagai filosofi utama dalam memberikan layanan hukum terbaik bagi setiap klien",
@@ -20,7 +21,22 @@
                     "desc": "JJC & Associates Law Office berkomitmen untuk selalu menjaga komunikasi yang jelas, terbuka dan terkini kepada setiap klien kami. Kantor hukum ini akan selalu memberikan informasi yang mudah dipahami terhadap setiap analisis kasus, risiko hukum, perkembangan kasus, maupun strategi hukum yang diambil untuk menciptakan rasa tenang dan nyaman pada setiap klien."
                 }
             ]
+        },
+        "description": {
+            "title": "Tentang JJC Law Office,<br/>Your One Stop Legal Platform",
+            "desc": "<b>JJC & Associates Law Office</b> berperan aktif dan berkontribusi memberikan layanan hukum bagi kepentingan masyarakat dan perusahaan. Kantor hukum ini bermodalkan intelektualitas yang tinggi dengan didukung profesionalitas dan integritas di bidang hukum. Kepercayaan klien menjadi hal yang terpenting bagi kantor hukum ini sehingga peningkatan kualitas layanan hukum selalu disempurnakan secara berkala. Kantor hukum ini telah berhasil dikenal dengan citra yang positif di kalangan masyarakat dan berbagai perusahaan."
+        },
+        "client": {
+            "title": "Our Awesome Clients"
+        },
+        "team": {
+            "title": "Meet Our Team",
+            "desc": "Di balik setiap kasus, ada tim pengacara yang bekerja sepenuh hati. Kami percaya bahwa setiap klien berhak mendapatkan pendampingan hukum yang adil, jelas, dan terpercaya."
         }
+    },
+    "client": {
+        "title": "Our Clients",
+        "desc": "Kepercayaan klien adalah aset terbesar kami. Kami bangga mendampingi berbagai pihak dalam menghadapi tantangan hukum dengan fokus dan dedikasi penuh"
     },
     "service": {
         "company_skill": {
@@ -41,7 +57,7 @@
             ]
         },
         "non_company_skill": {
-            "title": "Ruang Lingkup Keahlian - Non Perusahaan",
+            "title": "Ruang Lingkup Keahlian - individual",
             "desc": "JJC & Associates Law Office memiliki keahlian pada bidang hukum yang dibutuhkan oleh orang perorangan berupa :",
             "contents": [
                 {
@@ -99,5 +115,43 @@
                 }
             ]
         }
+    },
+    "contact": {
+        "title": "Kontak Kami",
+        "desc": "Kami akan segera membalas keluhan Anda dengan melakukan pengecekan keseluruhan informasi yang Anda berikan.",
+        "form": {
+            "name": "Nama",
+            "email": "Email",
+            "message": "Halo, saya ingin berkonsultasi\nmengenai layanan hukum",
+            "send": "Kirim"
+        }
+    },
+    "navbar": {
+        "contact": "Hubungi Kami",
+        "menu": [
+            {
+                "name": "Tentang Kami",
+                "link": "/about"
+            },
+            {
+                "name": "Keahlian/Layanan",
+                "link": "/service"
+            },
+            {
+                "name": "Klien",
+                "link": "/client"
+            }
+        ]
+    },
+    "footer": {
+        "motto": "Kami berkomitmen memberikan layanan terbaik dengan integritas, fokus, dan transparansi.",
+        "navigation": "Navigasi",
+        "contact": {
+            "title": "Kontak",
+            "email": "Email",
+            "phone": "Telepon",
+            "address": "Alamat"
+        },
+        "follow": "Ikuti Kami"
     }
 }

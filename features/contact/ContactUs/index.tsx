@@ -1,11 +1,12 @@
 "use client";
 
 import Responsive from "@components/Responsive";
+import { Dictionary } from "@functions/dictionary";
 import { tw } from "@functions/style";
 import useTheme from "@functions/theme";
 import Image from "next/image";
 import Link from "next/link";
-import { FormEventHandler, useState } from "react";
+import React, { FormEventHandler, useState } from "react";
 
 type FormState = {
   name: string | null;
@@ -13,8 +14,11 @@ type FormState = {
   message: string | null;
 };
 
-const ContactUs = () => {
-  const { theme } = useTheme();
+interface Props {
+  dict: Dictionary
+}
+
+const ContactUs: React.FC<Props> = ({ dict }) => {
 
   const [formState, setFormState] = useState<FormState>({
     name: null,
@@ -51,14 +55,13 @@ const ContactUs = () => {
           onSubmit={onFormSubmit}
         >
           <div className="flex flex-col gap-7 mt-8 mb-20">
-            <h2 className="font-light dark:text-white">Kontak Kami</h2>
+            <h2 className="font-light dark:text-white">{dict.contact.title}</h2>
             <p className="">
-              Kami akan segera membalas keluhan Anda dengan melakukan pengecekan
-              keseluruhan informasi yang Anda berikan.
+              {dict.contact.desc}
             </p>
             <input
               type="text"
-              placeholder="Nama"
+              placeholder={dict.contact.form.name}
               name="name"
               className="border-b focus-visible:outline-0 font-medium h-10 py-2"
               required
@@ -68,7 +71,7 @@ const ContactUs = () => {
             />
             <input
               type="email"
-              placeholder="Email"
+              placeholder={dict.contact.form.email}
               name="email"
               className="border-b focus-visible:outline-0 font-medium h-10 py-2"
               required
@@ -77,8 +80,8 @@ const ContactUs = () => {
               }
             />
             <textarea
-              placeholder={`Halo, saya ingin berkonsultasi\nmengenai layanan hukum`}
-              name="pesan"
+              placeholder={dict.contact.form.message}
+              name="message"
               className="border-b focus-visible:outline-0 font-medium resize-none py-2"
               required
               onChange={(e) =>
@@ -87,9 +90,9 @@ const ContactUs = () => {
             />
             <button
               type="submit"
-              className="me-auto px-12 py-1 text-white bg-black cursor-pointer dark:bg-white dark:text-black"
+              className="me-auto px-12 py-1 text-white bg-black cursor-pointer dark:bg-white dark:text-black active:translate-y-1"
             >
-              Kirim
+              {dict.contact.form.send}
             </button>
           </div>
           <div className="flex gap-5 font-light">

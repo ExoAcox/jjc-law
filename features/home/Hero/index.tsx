@@ -28,7 +28,7 @@ const Hero: React.FC<Props> = ({ dict }) => {
                             <h5 className="dark:text-base-black font-normal italic">
                                 {dict.home.hero.desc}.
                             </h5>
-                            <button className="bg-black font-semibold text-white  py-2 px-4 rounded-lg shadow mt-4 md:mt-6 active:translate-y-1">Konsultasi Sekarang</button>
+                            <button onClick={scrollToContact} className="bg-black font-semibold text-white  py-2 px-4 rounded-lg shadow mt-4 md:mt-6 active:translate-y-1">{dict.home.hero.button}</button>
                         </motion.div>
                         <motion.h3
                             {...fadeInRight({ delay: 0.5 })}

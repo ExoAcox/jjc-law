@@ -13,8 +13,8 @@ const Home: React.FC<Page> = async ({ params }) => {
     return (
         <Wrapper lang={lang}>
             <Hero dict={dict} />
-            <TeamList />
-            <ContactUs />
+            <TeamList dict={dict} />
+            <ContactUs dict={dict} />
         </Wrapper>
     );
 };

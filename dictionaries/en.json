@@ -2,102 +2,156 @@
   "home": {
     "hero": {
       "title": "Your One Stop Legal Platform",
-      "desc": "The mouth of the righteous talketh of wisdom and his tongue speaketh justice"
+      "desc": "The mouth of the righteous talketh of wisdom and his tongue speaketh justice",
+      "button": "Start Consultation"
     },
     "motto": {
-      "title": "JJC & Associates Law Office menjadikan F-I-T (Focus, Integrity, Transparency) sebagai filosofi utama dalam memberikan layanan hukum terbaik bagi setiap klien",
+      "title": "JJC & Associates Law Office embraces F-I-T (Focus, Integrity, Transparency) as the main philosophy in delivering the best legal services to every client",
       "contents": [
         {
           "title": "Focus",
-          "desc": "JJC & Associates Law Office memberikan perhatian penuh pada setiap kebutuhan klien kami. Kantor hukum ini berkomitmen mengerjakan setiap layanan hukum dengan seksama dan penuh kehati-hatian sehingga kantor hukum ini dapat memberikan layanan hukum yang maksimal dengan hasil optimal."
+          "desc": "JJC & Associates Law Office pays full attention to every client’s needs. This law office is committed to handling every legal service thoroughly and carefully, ensuring maximum service with optimal results. By providing in-depth analysis and tailored legal strategies, we make sure that every client receives the most effective, practical, and sustainable solutions."
         },
         {
           "title": "Integrity",
-          "desc": "Integritas/Kejujuran adalah hal yang utama bagi JJC & Associates Law Office. Kantor hukum ini berkomitmen untuk selalu menjunjung tinggi standar moral dan etika dalam setiap jasa hukum yang di berikan. Kantor hukum ini memastikan bahwa setiap tindakan yang diambil untuk kepentingan klien tetap berpegang teguh pada prinsip keadilan dan Ketuhanan Yang Maha Esa."
+          "desc": "Integrity and honesty are the foundation of JJC & Associates Law Office. This law office is committed to always upholding high moral and ethical standards in every legal service provided. We ensure that every action taken for the client’s interests remains firmly grounded in principles of justice and the belief in God Almighty."
         },
         {
           "title": "Transparency",
-          "desc": "JJC & Associates Law Office berkomitmen untuk selalu menjaga komunikasi yang jelas, terbuka dan terkini kepada setiap klien kami. Kantor hukum ini akan selalu memberikan informasi yang mudah dipahami terhadap setiap analisis kasus, risiko hukum, perkembangan kasus, maupun strategi hukum yang diambil untuk menciptakan rasa tenang dan nyaman pada setiap klien."
+          "desc": "JJC & Associates Law Office is committed to maintaining clear, open, and up-to-date communication with every client. We always provide information that is easy to understand regarding case analysis, legal risks, case developments, and legal strategies taken to create peace of mind and comfort for every client."
         }
       ]
+    },
+    "description": {
+      "title": "About JJC Law Office,<br/>Your One Stop Legal Platform",
+      "desc": "<b>JJC & Associates Law Office</b> actively contributes by providing legal services for the interests of society and corporations. This law office relies on strong intellectual capacity supported by professionalism and integrity in the legal field. Client trust is of utmost importance, therefore the improvement of legal service quality is continuously refined. The office has successfully built a positive reputation among the public and various corporations."
+    },
+    "client": {
+      "title": "Our Awesome Clients"
+    },
+    "team": {
+      "title": "Meet Our Team",
+      "desc": "Behind every case, there is a dedicated team of lawyers working wholeheartedly. We believe that every client deserves fair, clear, and trustworthy legal assistance."
     }
+  },
+  "client": {
+    "title": "Our Clients",
+    "desc": "Client trust is our greatest asset. We are proud to assist various parties in facing legal challenges with full focus and dedication."
   },
   "service": {
     "company_skill": {
-      "title": "RUANG LINGKUP KEAHLIAN - PERUSAHAAN",
-      "desc": "JJC & Associates Law Office dengan kekhususan utama dalam bidang bisnis berupaya meningkatkan nilai perusahaan Anda dengan memberikan 3P (Pengetahuan, Pendampingan dan Pengamanan) dalam setiap legal action yang dilakukan oleh perusahaan agar dapat bersaing dengan perusahaan-perusahaan lain, baik dalam skala nasional maupun internasional. Kantor hukum ini memiliki keahlian yang dibutuhkan perusahaan dalam bidang :",
+      "title": "Scope of Expertise - Corporate",
+      "desc": "JJC & Associates Law Office, with its main specialization in business law, strives to increase the value of your company by providing 3P (Knowledge, Assistance, and Protection) in every legal action taken, enabling competitiveness on both national and international scales. The firm has expertise in the following fields:",
       "contents": [
-        "Hukum Perusahaan",
-        "Hukum Perdata dan Pidana Perusahaan",
-        "Hukum Kontrak",
-        "Hukum Bisnis dan Investasi",
-        "Hukum Penanaman Modal Asing",
-        "Hukum Perbankan dan Keuangan",
-        "Restrukturisasi Hutang dan Perusahaan",
-        "Hukum Hak Kekayaan Intelektual",
-        "Hukum Ketenagakerjaan",
-        "Hukum Persaingan Usaha",
-        "Kepailitan dan Penundaan Kewajiban Pembayaran Utang"
+        "Corporate Law",
+        "Civil and Criminal Corporate Law",
+        "Contract Law",
+        "Business and Investment Law",
+        "Foreign Investment Law",
+        "Banking and Finance Law",
+        "Debt and Corporate Restructuring",
+        "Intellectual Property Rights Law",
+        "Labor Law",
+        "Competition Law",
+        "Bankruptcy and Suspension of Debt Payment Obligations"
       ]
     },
     "non_company_skill": {
-      "title": "RUANG LINGKUP KEAHLIAN - NON PERUSAHAAN",
-      "desc": "JJC & Associates Law Office memiliki keahlian pada bidang hukum yang dibutuhkan oleh orang perorangan berupa :",
+      "title": "Scope of Expertise - Individual",
+      "desc": "JJC & Associates Law Office also provides expertise in legal fields required by individuals, such as:",
       "contents": [
         {
-          "title": "Hukum Orang dan Keluarga",
-          "desc": "Kantor hukum ini mampu memberikan pendapat hukum terkait dengan hukum perkawinan, sengketa waris, permohonan perwalian anak di bawah umur, permohonan pengampuan, permohonan kuasa menjual, permohonan ganti atau perbaikan nama, penetapan ahli waris adopsi anak, penolakan harta waris dan lain sebagainya."
+          "title": "Personal and Family Law",
+          "desc": "We provide legal opinions related to marriage law, inheritance disputes, guardianship of minors, petitions for legal incapacity, power of attorney for property sales, requests for name changes, heir determination, child adoption, inheritance rejection, and more."
         },
         {
-          "title": "Hukum Benda",
-          "desc": "Kantor hukum ini memiliki keahlian dan kreativitas dalam melakukan pengamanan yang sah secara hukum terhadap setiap aset dan harta benda yang dimiliki."
+          "title": "Property Law",
+          "desc": "Our office offers expertise and creativity in legally securing assets and properties owned by individuals."
         },
         {
-          "title": "Hukum Agraria/Pertanahan",
-          "desc": "Kantor hukum ini mampu memberikan layanan hukum berupa perlindungan tanah sesuai hukum yang berlaku dan memiliki kerja sama dengan berbagai notaris dan/atau PPAT diseluruh Indonesia untuk kemudahan peralihan atau beralihnya hak atas tanah."
+          "title": "Land and Agrarian Law",
+          "desc": "We provide legal services in land protection according to applicable laws and collaborate with various notaries and/or PPAT across Indonesia to facilitate the transfer of land rights."
         },
         {
-          "title": "Hukum Ketenagakerjaan",
-          "desc": "Sengketa pada Pengadilan Hubungan Industrial (PHI) tidak hanya melibatkan perusahaan saja, namun dapat berpotensi melibatkan orang pribadi selaku penerima kerja. Jaminan pemenuhan hak bagi penerima kerja dapat diupayakan dengan mempercayakan kepada kantor hukum ini, yang memiliki pengalaman dalam forum bipartit, tripatrit maupun PHI."
+          "title": "Employment Law",
+          "desc": "Disputes in the Industrial Relations Court (PHI) may involve not only corporations but also individuals as employees. Ensuring the fulfillment of employee rights can be entrusted to us, as we have experience in bipartite, tripartite, and PHI forums."
         }
       ]
     },
     "service": {
-      "title": "Ruang Lingkup Layanan Kami",
+      "title": "Our Range of Services",
       "contents": [
         {
-          "title": "Layanan Hukum Tanpa Batas",
-          "desc": "JJC & Associates Law Office mampu memberikan solusi atas kebutuhan hukum bagi perusahaan maupun orang pribadi secara prioritas dengan nama layanan “UNLIMITED SERVICES”. Layanan ini memberikan pengalaman memiliki advokat dan/atau konsultan hukum secara pribadi.  Jenis layanan ini memberikan kemudahan bagi Anda untuk mengakses seluruh layanan dari kantor hukum ini dan CV JJC LAW INDONESIA dengan fleksibilitas waktu pelayanan, harga khusus dan kunjungan secara rutin (apabila dibutuhkan)."
+          "title": "Unlimited Legal Services",
+          "desc": "JJC & Associates Law Office provides solutions to legal needs for both corporations and individuals under the service name “UNLIMITED SERVICES.” This service offers the experience of having a personal lawyer and/or legal consultant. It allows easy access to all services from our office and CV JJC LAW INDONESIA with flexible service hours, special fees, and regular visits (if required)."
         },
         {
-          "title": "Konsultasi dan Pendapat Hukum",
-          "desc": "JJC & Associates Law Office memberikan layanan konsultasi terkait dengan permasalahan hukum yang ada serta memberikan pendapat hukum secara lisan maupun tertulis baik kepada perusahaan maupun orang perorangan untuk memberikan solusi dan jalan keluar yang terbaik."
+          "title": "Legal Consultation and Opinions",
+          "desc": "We provide consultation regarding existing legal issues and deliver oral or written legal opinions for corporations and individuals to offer the best solutions."
         },
         {
-          "title": "Penyelesaian Sengketa",
-          "desc": "JJC & Associates Law Office berpengalaman menangani berbagai macam perkara hukum. Kantor hukum ini menyediakan berbagai layanan hukum penyelesaian sengketa baik secara litigasi (di dalam pengadilan) maupun non litigasi (diluar pengadilan) seperti pendampingan mediasi, negosiasi, konsolidasi, arbitrase, dan sebagainya."
+          "title": "Dispute Resolution",
+          "desc": "Our firm has extensive experience handling various legal disputes. We provide litigation (in court) and non-litigation (out-of-court) services such as mediation, negotiation, conciliation, arbitration, and more."
         },
         {
-          "title": "Audit Hukum",
-          "desc": "Suatu fondasi bisnis perusahaan yang kokoh memerlukan pengecekan secara berkala dalam bidang hukum. Pengecekan tersebut bertujuan mengetahui permasalahan hukum yang mungkin tidak disadari oleh perusahaan. Audit hukum perusahaan dilakukan pada berbagai aspek seperti aspek pendirian, perizinan, hak kekayaan intelektual, kontrak/perjanjian, ketenagakerjaan, aset perusahaan, transaksi perusahaan, dan sebagainya yang dapat digunakan sebagai pedoman dalam melakukan perbaikan aspek hukum perusahaan. Hal ini akan mengamankan perusahaan ketika ingin berekspansi (memperbesar bisnis), melakukan berbagai tindakan hukum seperti merger atau akuisisi, pemenuhan perizinan tertentu dan sebagainya."
+          "title": "Legal Audit",
+          "desc": "A solid business foundation requires regular legal reviews to identify issues that may go unnoticed. Legal audits are conducted across various aspects such as establishment, licensing, intellectual property, contracts, labor, corporate assets, and transactions—serving as guidance for legal improvements, expansion, mergers, acquisitions, or compliance requirements."
         },
         {
-          "title": "Pendirian Perusahaan",
-          "desc": "Legalitas dan kepatuhan hukum oleh perusahaan merupakan hal yang sangat penting bagi keberlangsungan suatu bisnis dalam jangka panjang. JJC & Associates Law Office memberikan layanan berupa pendampingan dalam perencanaan pendirian perusahaan (pra pendirian) hingga  perusahaan telah terbentuk. Kantor hukum ini memberikan pengetahuan, pengamanan, arahan dan saran yang sesuai dengan regulasi, penentuan perizinan, permodalan, bentuk kerja sama dengan para rekan kerja/investor, struktur perusahaan dan lain sebagainya."
+          "title": "Company Establishment",
+          "desc": "Corporate legality and compliance are essential for long-term business sustainability. We provide assistance from the planning stage of company establishment to post-establishment, offering knowledge, protection, guidance, and recommendations in licensing, capital structuring, partnerships, and company structure."
         },
         {
-          "title": "Merger, Akuisisi, Konsolidasi dan Spin Off",
-          "desc": "JJC & Associates Law Office memberikan layanan kepada perusahaan berupa pendampingan dan pengamanan dalam proses pengurusan legalitas, termasuk memastikan keamanan dokumen hukum dan pengambilan langkah hukum terbaik dalam proses penggabungan (merger), pengambilalihan (akuisisi), peleburan (konsolidasi) dan pemisahan (spin off) perusahaan."
+          "title": "Mergers, Acquisitions, Consolidations, and Spin-Offs",
+          "desc": "We provide assistance and legal protection during corporate legal processes, ensuring document security and optimal legal strategies in mergers, acquisitions, consolidations, and spin-offs."
         },
         {
-          "title": "Likuidasi / Pembubaran Perusahaan",
-          "desc": "JJC & Associates Law Office memberikan layanan hukum komprehensif untuk membantu perusahaan dalam proses likuidasi. Kami mengurus seluruh aspek hukum yang terkait dengan pembubaran perusahaan, mulai dari pengurusan dokumen hingga penyelesaian kewajiban dengan meminimalkan berbagai risiko hukum yang ada serta memastikan hak-hak seluruh pihak terlindungi."
+          "title": "Liquidation / Company Dissolution",
+          "desc": "Our office offers comprehensive legal services to assist companies in the liquidation process. We handle documentation, settlement of obligations, and risk mitigation while ensuring the rights of all parties are protected."
         },
         {
-          "title": "Perancangan Kontrak Bisnis dan Pengkajian Dokumen Yuridis",
-          "desc": "JJC & Associates Law Office memiliki tim yang bergelar Perancang Kontrak Tersertifikasi (Certified Contract Drafter) yang telah diuji oleh negara (Badan Sertifikasi Nasional Profesi) sehingga kompeten dalam melakukan perancangan kontrak (contract drafting), mengkaji potensi risiko pada dokumen yuridis dan menghindari kelemahan suatu kontrak (contract review), serta mampu mendampingi dalam bernegosiasi terkait klausul pada perjanjian/kontrak bisnis pada perusahaan."
+          "title": "Business Contract Drafting and Legal Document Review",
+          "desc": "Our team includes Certified Contract Drafters, officially tested by the National Professional Certification Body, ensuring competence in drafting contracts, reviewing legal documents for risk assessment, avoiding contractual weaknesses, and assisting in negotiations of business agreements."
         }
       ]
     }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "desc": "We will promptly respond to your inquiry by reviewing all the information you have provided.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Hello, I would like to consult\nregarding legal services",
+      "send": "Send"
+    }
+  },
+  "navbar": {
+    "contact": "Contact Us",
+    "menu": [
+      {
+        "name": "About Us",
+        "link": "/about"
+      },
+      {
+        "name": "Expertise/Services",
+        "link": "/service"
+      },
+      {
+        "name": "Clients",
+        "link": "/client"
+      }
+    ]
+  },
+  "footer": {
+    "motto": "We are committed to providing the best legal services with integrity, focus, and transparency.",
+    "navigation": "Navigation",
+    "contact": {
+      "title": "Contact",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address"
+    },
+    "follow": "Follow Us"
   }
 }

@@ -6,16 +6,19 @@ import Image from "next/image";
 import { clients } from "@functions/clientList";
 import { motion } from "motion/react";
 import { fadeInBottom } from "@functions/motion";
+import { Dictionary } from "@functions/dictionary";
 
 
-interface Props { }
+interface Props {
+  dict: Dictionary
+}
 
-const ClientList: React.FC<Props> = ({ }) => {
+const ClientList: React.FC<Props> = ({ dict }) => {
   return (
     <Responsive>
       <div className="mb-10 md:mb-12">
-        <h2 className="text-center mb-2.5 md:mb-4 text-amber-500">OUR CLIENTS</h2>
-        <p className="text-center text-base md:text-lg max-w-[750px] mx-auto">Kepercayaan klien adalah aset terbesar kami. Kami bangga mendampingi berbagai pihak dalam menghadapi tantangan hukum dengan fokus dan dedikasi penuh</p>
+        <h2 className="text-center mb-2.5 md:mb-4 text-amber-500 uppercase">{dict.client.title}</h2>
+        <p className="text-center text-base md:text-lg max-w-[750px] mx-auto">{dict.client.desc}</p>
       </div>
       <div className="flex flex-wrap xl:grid-cols-5 gap-y-6 gap-x-12 md:gap-y-12 md:gap-x-24 justify-center">
         {[...clients, ...clients, ...clients, ...clients, ...clients].map((client, index) => {
