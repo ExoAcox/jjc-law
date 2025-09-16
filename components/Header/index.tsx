@@ -40,7 +40,7 @@ const Header: React.FC<Props> = ({ lang, dict }) => {
     >
       <Link href="/">
         <Image
-          src={theme === "dark" ? "/images/logo.png" : "/images/logo_black.png"}
+          src={theme === "dark" ? "/images/bitmap/logo.png" : "/images/bitmap/logo-black.png"}
           alt="header"
           width={80}
           height={20}
@@ -59,7 +59,7 @@ const Header: React.FC<Props> = ({ lang, dict }) => {
       <div className="flex gap-8 md:gap-4 lg:gap-8 items-center">
         <Link href={switchLanguage()} className="cursor-pointer">
           <Image
-            src={lang === "en" ? "/images/en.webp" : "/images/id.png"}
+            src={lang === "en" ? "/images/bitmap/en.png" : "/images/bitmap/id.png"}
             alt={lang === "en" ? "english" : "indonesia"}
             width={20}
             height={10}

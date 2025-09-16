@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Merriweather_Sans } from "next/font/google";
+import NextTopLoader from 'nextjs-toploader';
 import { tw } from "@functions/style";
 import "./globals.css";
 
@@ -31,6 +32,7 @@ export default function RootLayout({
       <body
         className={tw(process.env.NODE_ENV === "development" && "debug-screens", inter.variable, merriweather.variable)}
       >
+        <NextTopLoader color="#FE9A00" height={4} showSpinner={false} />
         {children}
       </body>
     </html>

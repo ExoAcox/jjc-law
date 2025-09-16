@@ -45,7 +45,7 @@ const ContactUs: React.FC<Props> = ({ dict }) => {
     <Responsive id="contact-us">
       <div className="flex rounded-lg drop-shadow-lg relative overflow-auto justify-end">
         <Image
-          src="/images/contact/contact.webp"
+          src="/images/bitmap/contact-background.jpg"
           alt="contact us"
           fill
           className="w-full h-full object-cover absolute top-0 left-0"

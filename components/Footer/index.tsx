@@ -19,7 +19,7 @@ const Footer: React.FC<Props> = ({ dict }) => {
 
                     <div className="flex flex-col gap-4 max-w-[250px]">
                         <Image
-                            src="/images/logo.png"
+                            src="/images/bitmap/logo.png"
                             alt="footer logo"
                             width={120}
                             height={30}

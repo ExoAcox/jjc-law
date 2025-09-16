@@ -17,7 +17,7 @@ const SkillList: React.FC<Props> = ({ dict }) => {
                 <div className="bg-amber-100 dark:bg-amber-200 py-4 px-5 md:px-8 md:py-6 rounded-xl dark:text-base-black">
                     <p className="leading-6">{dict.service.company_skill.desc}</p>
                 </div>
-                <Image src={Illustration} alt="" className="hidden lg:block size-[400px] mt-auto translate-y-3" />
+                <Image src={Illustration} alt="" className="hidden lg:block size-[400px] mt-auto translate-y-4" />
             </div>
             <div className="flex flex-col flex-1 c">
                 {dict.service.company_skill.contents.map((content, index) => {

@@ -6,7 +6,7 @@ import { motion } from "motion/react";
 import Image from "next/image";
 import { fadeInBottom, fadeInLeft, fadeInRight } from "@functions/motion";
 
-import HomeImage from "@images/bitmap/home-hero-image.jpg";
+import HomeImage from "@images/bitmap/home-hero-background.jpg";
 import { scrollToContact } from "@functions/contactUs";
 
 interface Props {
