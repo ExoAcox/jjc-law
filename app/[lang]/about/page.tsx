@@ -4,6 +4,7 @@ import Hero from "@features/about/Hero";
 import ContactUs from "@features/contact/ContactUs";
 import Wrapper from "@components/Wrapper";
 import TeamList from "@features/about/TeamList";
+import Footer from "@components/Footer";
 
 const Home: React.FC<Page> = async ({ params }) => {
     const { lang } = await params;
@@ -14,6 +15,7 @@ const Home: React.FC<Page> = async ({ params }) => {
             <Hero dict={dict} />
             <TeamList dict={dict} />
             <ContactUs dict={dict} />
+            <Footer dict={dict} />
         </Wrapper>
     );
 };

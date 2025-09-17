@@ -2,8 +2,8 @@
 
 import Responsive from "@components/Responsive";
 import { Dictionary } from "@functions/dictionary";
-import { tw } from "@functions/style";
-import useTheme from "@functions/theme";
+import { fadeInBottom } from "@functions/motion";
+import { motion } from "motion/react";
 import Image from "next/image";
 import Link from "next/link";
 import React, { FormEventHandler, useState } from "react";
@@ -43,7 +43,7 @@ const ContactUs: React.FC<Props> = ({ dict }) => {
 
   return (
     <Responsive id="contact-us">
-      <div className="flex rounded-lg drop-shadow-lg relative overflow-auto justify-end">
+      <motion.div {...fadeInBottom()} className="flex rounded-lg drop-shadow-lg relative overflow-auto justify-end">
         <Image
           src="/images/bitmap/contact-background.jpg"
           alt="contact us"
@@ -51,6 +51,7 @@ const ContactUs: React.FC<Props> = ({ dict }) => {
           className="w-full h-full object-cover absolute top-0 left-0"
         />
         <form
+
           className="flex flex-col w-full md:max-w-[578px] xl:max-w-[618px] xl:ms-auto z-10 px-10 sm:px-20 py-8 bg-gradient-to-l from-white dark:from-black to-white/85 dark:to-black/85"
           onSubmit={onFormSubmit}
         >
@@ -112,7 +113,7 @@ const ContactUs: React.FC<Props> = ({ dict }) => {
             </Link>
           </div>
         </form>
-      </div>
+      </motion.div>
     </Responsive>
   );
 };
