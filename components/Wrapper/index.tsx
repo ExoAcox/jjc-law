@@ -11,7 +11,7 @@ interface Props {
 
 const Wrapper: React.FC<Props> = ({ children, lang, dict }) => {
   return (
-    <div>
+    <div className="max-w-dvw overflow-hidden">
       <Header lang={lang} dict={dict} />
       <div className="pt-20">{children}</div>
     </div>

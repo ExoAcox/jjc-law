@@ -16,10 +16,10 @@ interface Props {
 const ClientList: React.FC<Props> = ({ dict }) => {
   return (
     <Responsive>
-      <motion.div {...fadeInBottom()} className="mb-10 md:mb-12">
+      <div className="mb-10 md:mb-12">
         <h2 className="text-center mb-2.5 md:mb-4 text-amber-500 uppercase">{dict.client.title}</h2>
         <p className="text-center text-base md:text-lg max-w-[750px] mx-auto">{dict.client.desc}</p>
-      </motion.div>
+      </div>
       <div className="flex flex-wrap xl:grid-cols-5 gap-y-6 gap-x-12 md:gap-y-12 md:gap-x-24 justify-center">
         {[...clients, ...clients, ...clients, ...clients, ...clients].map((client, index) => {
           return (

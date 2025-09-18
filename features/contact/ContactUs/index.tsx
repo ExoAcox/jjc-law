@@ -2,8 +2,6 @@
 
 import Responsive from "@components/Responsive";
 import { Dictionary } from "@functions/dictionary";
-import { fadeInBottom } from "@functions/motion";
-import { motion } from "motion/react";
 import Image from "next/image";
 import Link from "next/link";
 import React, { FormEventHandler, useState } from "react";
@@ -43,7 +41,7 @@ const ContactUs: React.FC<Props> = ({ dict }) => {
 
   return (
     <Responsive id="contact-us">
-      <motion.div {...fadeInBottom()} className="flex rounded-lg drop-shadow-lg relative overflow-auto justify-end">
+      <div className="flex rounded-lg drop-shadow-lg relative overflow-auto justify-end">
         <Image
           src="/images/bitmap/contact-background.jpg"
           alt="contact us"
@@ -52,10 +50,10 @@ const ContactUs: React.FC<Props> = ({ dict }) => {
         />
         <form
 
-          className="flex flex-col w-full md:max-w-[578px] xl:max-w-[618px] xl:ms-auto z-10 px-10 sm:px-20 py-8 bg-gradient-to-l from-white dark:from-black to-white/85 dark:to-black/85"
+          className="flex flex-col w-full md:max-w-[578px] xl:max-w-[618px] xl:ms-auto z-10 px-6 sm:px-20 py-4 sm:py-8 bg-gradient-to-l from-white dark:from-black to-white/85 dark:to-black/85"
           onSubmit={onFormSubmit}
         >
-          <div className="flex flex-col gap-7 mt-8 mb-20">
+          <div className="flex flex-col gap-7 mt-8 mb-14 sm:mb-20">
             <h2 className="font-light dark:text-white">{dict.contact.title}</h2>
             <p className="">
               {dict.contact.desc}
@@ -96,7 +94,7 @@ const ContactUs: React.FC<Props> = ({ dict }) => {
               {dict.contact.form.send}
             </button>
           </div>
-          <div className="flex gap-5 font-light">
+          <div className="flex gap-5 gap-y-3 font-light flex-wrap">
             <Link
               href="mailto:info.jjclaw@gmail.com"
               target="_blank"
@@ -113,7 +111,7 @@ const ContactUs: React.FC<Props> = ({ dict }) => {
             </Link>
           </div>
         </form>
-      </motion.div>
+      </div>
     </Responsive>
   );
 };

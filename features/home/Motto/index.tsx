@@ -42,13 +42,13 @@ const Motto: React.FC<Props> = ({ dict }) => {
     return <Responsive parentClassName="bg-gray-100 dark:bg-zinc-800">
         <motion.h5 {...fadeInBottom()} className="mb-10 md:mb-20 text-center max-w-[800px] mx-auto font-merriweather"> {dict.home.motto.title}</motion.h5>
         <div className="flex flex-col gap-5 md:gap-10">
-            <Card title={dict.home.motto.contents[0].title} index={1} image="/images/bitmap/home-motto-focus.jpg">
+            <Card title={dict.home.motto.contents[0].title} index={1} image="/images/bitmap/home-motto-1.jpg">
                 {dict.home.motto.contents[0].desc}
             </Card>
-            <Card title={dict.home.motto.contents[1].title} isEven index={2} image="images/bitmap/home-motto-integrity.jpg">
+            <Card title={dict.home.motto.contents[1].title} isEven index={2} image="images/bitmap/home-motto-2.jpg">
                 {dict.home.motto.contents[1].desc}
             </Card>
-            <Card title={dict.home.motto.contents[2].title} index={3} image="images/bitmap/home-motto-transparency.jpg">
+            <Card title={dict.home.motto.contents[2].title} index={3} image="images/bitmap/home-motto-3.jpg">
                 {dict.home.motto.contents[2].desc}
             </Card>
         </div>

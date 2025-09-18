@@ -5,8 +5,6 @@ import Marquee from "react-fast-marquee";
 import Image from "next/image"
 import Responsive from "@components/Responsive";
 import { Dictionary } from "@functions/dictionary";
-import { motion } from "motion/react";
-import { fadeInBottom } from "@functions/motion";
 
 
 interface Props {
@@ -15,10 +13,10 @@ interface Props {
 
 const ClientCarousel: React.FC<Props> = ({ dict }) => {
     return <Responsive parentClassName="border-y dark:border-gray-500">
-        <motion.div {...fadeInBottom()} className="mb-10 md:mb-12 w-fit mx-auto">
+        <div className="mb-10 md:mb-12 w-fit mx-auto">
             <h4 className="text-center font-bold uppercase">{dict.home.client.title}</h4>
             <div className="w-full h-0.5 bg-base-black mt-0.5 dark:bg-white" />
-        </motion.div>
+        </div>
         <div className="flex flex-col gap-8">
             <Marquee className="overflow-hidden">
                 {clients.sort(() => Math.random() - 0.5).map(client => {
