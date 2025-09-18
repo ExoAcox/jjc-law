@@ -41,7 +41,7 @@ const ContactUs: React.FC<Props> = ({ dict }) => {
 
   return (
     <Responsive id="contact-us">
-      <div className="flex rounded-lg drop-shadow-lg relative overflow-auto justify-end">
+      <div className="flex md:rounded-lg drop-shadow md:drop-shadow-lg relative overflow-auto justify-end">
         <Image
           src="/images/bitmap/contact-background.jpg"
           alt="contact us"
@@ -89,7 +89,7 @@ const ContactUs: React.FC<Props> = ({ dict }) => {
             />
             <button
               type="submit"
-              className="me-auto px-12 py-1 text-white bg-black cursor-pointer dark:bg-white dark:text-black active:translate-y-1"
+              className="me-auto px-14 py-2 text-white bg-black cursor-pointer dark:bg-white dark:text-black active:translate-y-1"
             >
               {dict.contact.form.send}
             </button>

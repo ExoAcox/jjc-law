@@ -27,7 +27,7 @@ const SkillList: React.FC<Props> = ({ dict }) => {
             </div>
             <div className="flex flex-col flex-1 c">
                 {dict.service.company_skill.contents.map((content, index) => {
-                    return <motion.button {...fadeInRight({ delay: 0.1 * index })} key={index} className="p-4 last:border-0 md:last:border-b border-b border-primary-50 font-semibold text-left text-nowrap hover:text-amber-500">
+                    return <motion.button {...fadeInRight({ delay: 0.1 * index })} key={index} className="p-4 last:border-0 md:last:border-b border-b border-primary-50 font-semibold text-left hover:text-amber-500">
                         {content}
                     </motion.button >
                 })}

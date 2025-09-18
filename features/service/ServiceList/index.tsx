@@ -28,7 +28,7 @@ const SkillList: React.FC<Props> = ({ dict }) => {
     return <Responsive>
 
         <div className="flex gap-x-12 sm:gap-y-10 gap-y-8 flex-col md:flex-row">
-            <motion.h1 {...fadeInBottom()} className="font-normal ml-3 md:ml-0 uppercase md:max-w-[500px] text-3xl sm:text-4xl md:text-8xl text-amber-500">{dict.service.service.title}</motion.h1>
+            <motion.h1 {...fadeInBottom()} className="font-normal ml-3 md:ml-0 uppercase md:max-w-[300px] lg:max-w-[500px] text-3xl sm:text-4xl md:text-6xl lg:text-8xl text-amber-500">{dict.service.service.title}</motion.h1>
             <div className="flex flex-col flex-1">
                 {dict.service.service.contents.map((content, index) => {
                     return <div key={index}><motion.div {...fadeInRight({ delay: 0.1 * index })} className="p-4 pb-0 border-b">

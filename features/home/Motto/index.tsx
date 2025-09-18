@@ -45,10 +45,10 @@ const Motto: React.FC<Props> = ({ dict }) => {
             <Card title={dict.home.motto.contents[0].title} index={1} image="/images/bitmap/home-motto-1.jpg">
                 {dict.home.motto.contents[0].desc}
             </Card>
-            <Card title={dict.home.motto.contents[1].title} isEven index={2} image="images/bitmap/home-motto-2.jpg">
+            <Card title={dict.home.motto.contents[1].title} isEven index={2} image="/images/bitmap/home-motto-2.jpg">
                 {dict.home.motto.contents[1].desc}
             </Card>
-            <Card title={dict.home.motto.contents[2].title} index={3} image="images/bitmap/home-motto-3.jpg">
+            <Card title={dict.home.motto.contents[2].title} index={3} image="/images/bitmap/home-motto-3.jpg">
                 {dict.home.motto.contents[2].desc}
             </Card>
         </div>
