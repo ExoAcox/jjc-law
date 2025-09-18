@@ -1,11 +1,12 @@
 import { Variants } from "motion";
 
 interface MotionOptions {
-    delay: number;
+    isInView?: boolean;
+    delay?: number;
 }
 
 export const fadeVariants = (options?: MotionOptions): Variants => {
-    const { delay = 0 } = options ?? {};
+    const delay = options?.delay ?? 0
 
     const transition = {
         delay,
@@ -53,10 +54,12 @@ export const parentAnimate = {
 export const fadeInRight = (options?: MotionOptions) => {
     const variants = fadeVariants(options);
 
+
     return {
         variants,
         initial: "right",
         whileInView: "normal",
+        animate: options?.isInView ? "normal" : "",
         viewport: { once: true },
     };
 };
@@ -64,10 +67,12 @@ export const fadeInRight = (options?: MotionOptions) => {
 export const fadeInBottom = (options?: MotionOptions) => {
     const variants = fadeVariants(options);
 
+
     return {
         variants,
         initial: "bottom",
         whileInView: "normal",
+        animate: options?.isInView ? "normal" : "",
         viewport: { once: true },
     };
 };
@@ -75,10 +80,12 @@ export const fadeInBottom = (options?: MotionOptions) => {
 export const fadeInLeft = (options?: MotionOptions) => {
     const variants = fadeVariants(options);
 
+
     return {
         variants,
         initial: "left",
         whileInView: "normal",
+        animate: options?.isInView ? "normal" : "",
         viewport: { once: true },
     };
 };

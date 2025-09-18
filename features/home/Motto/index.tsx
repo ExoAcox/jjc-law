@@ -20,7 +20,7 @@ const Card: React.FC<CardProps> = ({ title, children, isEven, index, image }) =>
     const fade = !isEven ? fadeInLeft : fadeInRight
 
     return <motion.div {...fade({ delay: index * 0.2 })} className={tw("max-w-[900px] shadow-xs bg-white dark:bg-stone-100 p-4 rounded-lg items-center sm:items-start flex flex-col sm:flex-row gap-4", isEven && "ml-auto sm:flex-row-reverse")}>
-        <div className="size-[200px] shrink-0 rounded-lg relative overflow-hidden">
+        <div className="w-full h-[144px] sm:size-[200px] shrink-0 self-center rounded-lg relative overflow-hidden">
             <Image src={image} alt="" fill className="object-cover" />
         </div>
         <div className="p-0 sm:py-4 md:p-4 dark:text-base-black">
